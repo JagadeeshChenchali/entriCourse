@@ -5,14 +5,14 @@ Write a function greetTimeOfDay that takes the current hour as input (in 24-hour
 
  
         function greetTimeOfDay(hour) {
-            if (hour >= 6 && hour <= 11) {
+            if (hour >= 6 && hour < 12) {
                 console.log("Good morning");
-            } else if (hour >= 12 && hour <= 17) {
+            } else if (hour >= 12 && hour < 18) {
                 console.log("Good afternoon");
-            } else if (hour >= 18 && hour <= 23) {
+            } else if (hour >= 18 && hour < 24) {
                 console.log("Good evening");
             }
             return hour;
         }
-        console.log(greetTimeOfDay(13.11));
+        console.log(greetTimeOfDay(11.11));
     
