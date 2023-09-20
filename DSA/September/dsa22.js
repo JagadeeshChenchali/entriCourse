@@ -11,4 +11,4 @@ for (let i = 1; i <= n; i++) {
 //1*2*3*4*5=120
 //for (let i = 5; i <= n; i--)
 //5*4*3*2*1=120
-console.log(factorial); // 120
+console.log(factorial);
