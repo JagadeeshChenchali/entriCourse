@@ -4,11 +4,16 @@ console.log(truncate_string("Robin Singh",4));
 "Robi"
 */
 
-function truncate_string (string, length) 
+/*function truncate_string (string, length) 
 {
     if ((string.constructor === String) && (length>0)) 
     {
         return string.slice(0, length);
     }
 };
-console.log(truncate_string("Robin Singh",4));
+console.log(truncate_string("Robin Singh",4));*/
+
+function truncate_string(str, num) {
+    return str.slice(0, num);
+}
+console.log(truncate_string("Robin Singh", 4));
